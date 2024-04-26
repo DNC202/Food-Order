@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://th.bing.com/th/id/R.fc57dd2ff811d83d1f080949ee77e67e?rik=318vBCYRIU9jPA&riu=http%3a%2f%2fwww.textures4photoshop.com%2ftex%2fthumbs%2ffast-food-restaurant-background-with-chalkboard-texture-free-94.jpg&ehk=ZSPyntmAw44SaBvd06nagsxuhgc8WT3DTLoZa6%2f9xKg%3d&risl=&pid=ImgRaw&r=0")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  & h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  & .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+    & input {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      outline: none;
+      border-radius: 40px;
+      font-size: 16px;
+      color: #fff;
+      padding: 20px 45px 20px 20px;
+    }
+    & input::placeholder {
+      color: #fff;
+    }
+  }
+
+  & .forgot-password {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+    & label input {
+      accent-color: #fff;
+      margin-right: 3px;
+    }
+
+    & a {
+      color: #fff;
+      & :hover {
+        color: gray;
+      }
+    }
+  }
+
+  & .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  & .login-container {
+    font-style: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+    & p a {
+      color: #fff;
+      font-weight: 600;
+
+      & :hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
