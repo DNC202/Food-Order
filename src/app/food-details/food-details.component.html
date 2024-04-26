@@ -1,18 +1,18 @@
 <div class="container">
-    <img src="{{food.thumbnail}}" [alt]="food.name">
-</div>
-<div class="details">
+  <img src="{{ food.thumbnail }}" [alt]="food.name" />
+  <div class="details">
     <div class="header">
-        <span class="name">
-            {{food.name}}
-        </span>
+      <span class="name">
+        {{ food.name }}
+      </span>
+      <span class="price"> {{ food.price }} VND </span>
     </div>
-    <div class="body">
-        <span class="description">
-            {{food.description}}
-        </span>      
-        <span class="price">
-            {{food.price}} VND
-        </span>
+    <div class="description">
+      <span>
+        {{ food.description }}
+      </span>
     </div>
+    
+    <button>Add To Cart</button>
+  </div>
 </div>
